@@ -1,0 +1,16 @@
+outtreated: "/path/to/fits"
+outpl: "/path/to/first_iteration_output"
+outsecond: "/path/to/second_iteration_output"
+inputpl: "/path/to/aggregated_input_files"
+
+expressiondata: "scaled_expression_data_file.csv"
+parameterfile: "parameter_boundary_file.csv"
+gensatime: 1000
+nocorestreatedfit: 16
+norepstreatedfit: 1e4
+multiplier: 200
+
+optimmethod: [lbfgsb,lm]
+fnscale: 1e6
+factr: 1e2
+maxit: 20000
